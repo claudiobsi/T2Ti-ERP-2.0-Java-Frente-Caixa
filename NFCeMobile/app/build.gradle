@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.t2ti.nfcemobile"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main { resources.srcDirs = ['src/main/resources', 'src/main/resources/schemas_nfe'] }
+    }
+
+    packagingOptions {
+        pickFirst 'META-INF/README'
+        pickFirst 'org/apache/axis2/addressing/i18n/resource.properties'
+        pickFirst 'META-INF/DEPENDENCIES'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'commons-io:commons-io:2.5'
+}

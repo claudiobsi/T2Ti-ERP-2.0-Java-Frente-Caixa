@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_item_novo"
+        android:title="@string/menu_item_novo"/>
+
+    <item android:id="@+id/menu_item_importa_produto"
+        android:title="@string/menu_item_importa_produto"/>
+
+    <item android:id="@+id/menu_item_cancela_nfce"
+        android:title="@string/txt_cancelar_nfce"/>
+
+</menu>

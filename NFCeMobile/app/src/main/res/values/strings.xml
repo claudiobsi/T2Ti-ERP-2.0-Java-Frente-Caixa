@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">T2Ti NFCe Mobile Java</string>
+
+    <string name="menu_item_novo">Nova NFC-e</string>
+    <string name="menu_item_importa_produto">Importa Produto</string>
+    <string name="menu_item_incluir_pagamento">Incluir Pagamento</string>
+    <string name="menu_item_identifica_consumidor">Identificar Consumidor</string>
+    <string name="menu_item_finaliza_venda">Finalizar Venda</string>
+
+    <string name="txt_botao_incluir">Incluir Produto</string>
+    <string name="txt_aguarde">Em Processamento...</string>
+    <string name="txt_forma_pagamento">Forma Pagamento</string>
+    <string name="txt_cpf_cnpj">CPF/CNPJ</string>
+    <string name="txt_nome">Nome Consumidor</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_cancelar">Cancelar</string>
+    <string name="txt_cancelar_nfce">Cancelar NFC-e</string>
+    <string name="txt_numero_cancelar">Número NFC-e</string>
+    <string name="txt_justificativa">Justificativa</string>
+
+    <string name="msg_produto_importado">Importação realizada com sucesso.</string>
+    <string name="msg_pagamento">Pagamento adicionado: </string>
+    <string name="msg_consumidor_identificado">Consumidor Identificado: </string>
+
+    <string name="erro_nenhum_item">Nenhum item na venda</string>
+    <string name="erro_nenhum_pagamento">Necessário incluir pagamento</string>
+    <string name="erro_cpf_cnpj">CPF/CNPJ Inválido</string>
+    <string name="erro_numero">Número Inválido</string>
+
+</resources>
